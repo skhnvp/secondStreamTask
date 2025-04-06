@@ -30,6 +30,6 @@ public class Main {
     }
 
     public static void printList(List<Integer> list) {
-        list.forEach(System.out::println);
+        list.forEach(System.out::println); // такой вариант sout предложила идея, заодно почитал про Lambda method reference
     }
 }
